@@ -1,0 +1,25 @@
+.contact {
+  position: relative;
+}
+.gallery img {
+  height: 70vh !important;
+  width: 100%;
+  object-fit: cover;
+}
+/* Custom Gallery */
+.Customgallery {
+  margin: 150px auto;
+}
+.Customgallery img {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+.Customgallery .box {
+  overflow: hidden;
+}
+.Customgallery .box:hover img {
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+  cursor: pointer;
+}

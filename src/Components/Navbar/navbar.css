@@ -1,0 +1,30 @@
+.navbar {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #fff;
+}
+.navbar-brand {
+  font-size: 3em;
+  color: #fff !important;
+  padding: 0px 60px;
+}
+.navbar-brand span {
+  font-size: 1.5em;
+  color: var(--main);
+}
+.navbar-nav {
+  padding: 0px 60px;
+  margin-top: 50px;
+}
+.nav-link {
+  color: #fff;
+  margin-left: 5px;
+}
+.nav-link:hover {
+  color: var(--main) !important;
+}
+.navbar.active {
+  background: #000;
+  padding: 5px;
+}

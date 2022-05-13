@@ -1,0 +1,47 @@
+.header {
+  position: relative;
+}
+.header img {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+}
+.Overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  opacity: 0.5;
+}
+.header .Content {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+.header .Content h6 {
+  font-size: 50px;
+  font-weight: 600;
+}
+/* Custom Section Start */
+.custom {
+  margin: 150px auto;
+}
+.custom img {
+  height: 600px;
+  width: 600px;
+  object-fit: cover;
+  margin-top: -80px;
+}
+.custom .col-sm-4 div {
+  margin: 20px auto;
+}
+.custom .col-sm-4 h6 {
+  font-size: 35px;
+  font-weight: 600;
+}
+/* Custom Section End */

@@ -1,0 +1,22 @@
+.about {
+  position: relative;
+}
+.about img {
+  height: 70vh;
+  width: 100%;
+  object-fit: cover;
+}
+.about_custom img {
+  object-fit: cover;
+  margin-top: -100px;
+  height: 680px;
+  width: 700px;
+}
+.about_custom .col-sm-7 h6 {
+  font-size: 50px;
+  font-weight: 600;
+}
+.about_custom .col-sm-7 h6 span {
+  font-size: 55px;
+  color: var(--main);
+}

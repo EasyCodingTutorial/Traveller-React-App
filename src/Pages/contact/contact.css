@@ -1,0 +1,32 @@
+.contact {
+  position: relative;
+}
+.contact img {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+}
+.contact .Overlay {
+  opacity: 0.2;
+}
+.contact .ContactContent {
+  position: absolute;
+  top: 30%;
+  left: 60%;
+}
+.contact .ContactContent form {
+  width: 500px;
+  background: #fff;
+  padding: 20px;
+}
+.ContactContent .form-group {
+  margin: 15px auto;
+}
+.ContactContent form h6 {
+  font-size: 50px;
+  font-weight: 600;
+  text-align-last: center;
+}
+.ContactContent .btn {
+  width: 100%;
+}

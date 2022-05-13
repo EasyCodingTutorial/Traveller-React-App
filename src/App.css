@@ -1,0 +1,54 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,400;1,500&display=swap");
+
+/* Global Variable */
+:root {
+  --main: #f60b0b;
+  --black: #000;
+  --white: #fff;
+  --font_family: "Besley", serif;
+}
+* {
+  transition: 0.3s;
+  font-family: var(--font_family);
+}
+*::selection {
+  background: var(--main);
+  color: var(--white) !important;
+}
+html::-webkit-scrollbar {
+  width: 10px;
+}
+html::-webkit-scrollbar-thumb {
+  background: var(--main);
+}
+html::-webkit-scrollbar-track {
+  background: var(--black);
+}
+.btn {
+  width: 300px;
+  background: var(--main);
+  color: #fff !important;
+  border-radius: 15px;
+  transition: 0.2s;
+}
+.btn:hover {
+  letter-spacing: 2px;
+  width: 310px;
+}
+.content {
+  text-align: center;
+  margin: 50px auto;
+}
+.content h6 {
+  font-size: 50px;
+  font-weight: 600;
+}
+.content h6 span {
+  font-size: 55px;
+  font-weight: 900;
+  color: var(--main);
+}
+.content p {
+  font-size: 12px;
+}
